@@ -1,0 +1,8 @@
+# 🧠 Multi-Agent AI System using Google ADK
+
+This project is a modular, multi-agent AI system that accepts a **user-defined goal**, breaks it into steps, routes data between API-based agents, and returns an **intelligent summary**. Built using Python, the system demonstrates **agent collaboration**, **goal planning**, and **data enrichment** using real-time public APIs.
+
+---
+
+## 🚀 Example Goal
+
