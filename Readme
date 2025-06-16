@@ -6,3 +6,40 @@ This project is a modular, multi-agent AI system that accepts a **user-defined g
 
 ## 🚀 Example Goal
 
+---
+
+## 🧩 Agents Overview
+
+### 🔹 `Planner Agent`
+Breaks down the user goal into actionable steps and determines execution order.
+
+### 🔹 `SpaceX Agent`
+Fetches the next SpaceX launch date, time, and location using the SpaceX public API.
+
+### 🔹 `Weather Agent`
+Retrieves weather conditions for the launch location using OpenWeatherMap API.
+
+### 🔹 `Summary Agent`
+Analyzes weather data and predicts whether the launch may be delayed.
+
+---
+
+## 🌐 APIs Used
+
+| API            | Endpoint Type      | Purpose                         |
+|----------------|--------------------|----------------------------------|
+| SpaceX         | Public REST API     | Get next launch details          |
+| OpenWeatherMap | Requires API key    | Fetch weather for launch site    |
+
+---
+
+## 🛠 Setup Instructions
+
+### 1. 📦 Install dependencies
+
+```bash
+pip install -r requirements.txt
+python main.py
+
+
+
